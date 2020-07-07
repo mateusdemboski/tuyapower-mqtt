@@ -1,0 +1,10 @@
+{
+    "device": {
+        "id": "xxxxxxxxxxxxxxxxxxxx",
+        "key": "xxxxxxxxxxxxxxxx"
+    },
+    "mqtt": {
+        "host": "localhost",
+        "port": 1883
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "tuyapower-mqtt",
+  "version": "1.0.0",
+  "description": "Service to publish data of tuya based smart plugs with power measure on MQTT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusdemboski/tuyapower-mqtt.git"
+  },
+  "keywords": [
+    "tuya",
+    "iot",
+    "mqtt",
+    "tuyapower",
+    "tuyapi",
+    "docker",
+    "node"
+  ],
+  "author": "Mateus Demboski <mateusdemboski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateusdemboski/tuyapower-mqtt/issues"
+  },
+  "homepage": "https://github.com/mateusdemboski/tuyapower-mqtt#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
+  },
+  "dependencies": {
+    "mqtt": "^4.1.0",
+    "tuyapi": "^5.3.1"
+  }
+}
